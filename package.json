@@ -9,7 +9,7 @@
   },
   "fitbit": {
     "appType": "app",
-    "appDisplayName": "kpay-dash",
+    "appDisplayName": "K-Pay Dash",
     "iconFile": "resources/icon.png",
     "wipeColor": "#06a763",
     "requestedPermissions": [

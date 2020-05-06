@@ -1,0 +1,66 @@
+.header {
+  x: 50%;
+  y: 18%;
+  font-family: "Colfax-Bold";
+  fill: fb-green;
+  font-size: 25;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.label {
+  font-family: "System-Bold";
+  fill: white;
+  font-size: 20;
+  font-weight: bold;
+  text-length: 15;
+}
+
+.value {
+  font-family: "System-Regular";
+  fill: white;
+  font-size: 18;
+  font-weight: bold;
+  text-anchor: end;
+  x: 90%;
+  text-length: 20;
+}
+
+.container {
+  x: 5%;
+  width: 90%;
+}
+
+.content {
+  y: 30%;
+  height: 70%;
+}
+
+.col {
+  width: 50%;
+}
+
+.col-2 {
+  x: 50%;
+}
+
+.row > .label {
+  y: 0;
+}
+
+.row > .value {
+  y: 12%;
+}
+
+.row-1 {
+  y: 0;
+}
+
+.row-2 {
+  y: 33%;
+}
+
+.row-3 {
+  y: 66%
+}
+

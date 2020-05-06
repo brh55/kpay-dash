@@ -1,0 +1,37 @@
+<svg x="0" viewport-fill="black" height="100%" width="100%">
+  <text class="header">K-Pay Summary</text>
+  <svg class="container content">
+    <svg class="col col-1">
+      <svg class="row row-1">
+        <text class="label">Total:</text>
+        <text id="totalIncome" class="value">--</text>
+      </svg>
+
+      <svg class="row row-2">
+        <text class="label">Trial:</text>
+        <text id="totalActiveTrials" class="value">--</text>
+      </svg>
+      
+      <svg class="row row-3">
+        <text class="label">Pay Date:</text>
+        <text id="nextPayoutDate" class="value">--</text>
+      </svg>
+    </svg>
+    <svg class="col col-2">
+      <svg class="row row-1">
+        <text class="label">Balance:</text>
+        <text id="currentBalance" class="value">--</text>
+      </svg>
+  
+      <svg class="row row-2">
+        <text class="label">Payout:</text>
+        <text id="nextPayout" class="value">--</text>
+      </svg>
+
+      <svg class="row row-3">
+        <text class="label">Purchases:</text>
+        <text id="totalPurchases" class="value">--</text>
+      </svg>
+    </svg>
+  </svg>
+</svg>

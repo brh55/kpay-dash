@@ -1,18 +1,17 @@
 {
-  "name": "kpay-summary",
+  "name": "kpay-dash",
   "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@fitbit/sdk": "~4.1.0",
     "@fitbit/sdk-cli": "^1.7.1"
   },
   "fitbit": {
-    "appUUID": "3ae76eb6-a6c3-4e39-a607-e7331f9a3ff6",
     "appType": "app",
-    "appDisplayName": "kpay-summary",
+    "appDisplayName": "kpay-dash",
     "iconFile": "resources/icon.png",
-    "wipeColor": "#ffffff",
+    "wipeColor": "#06a763",
     "requestedPermissions": [
       "access_app_cluster_storage",
       "access_internet"
@@ -26,7 +25,8 @@
     "i18n": {},
     "defaultLanguage": "en-US",
     "appClusterID": "pixels.on.ridge.apps",
-    "developerID": "4c00bfa2-b6c1-4629-a3df-e72bfd14716e"
+    "developerID": "4c00bfa2-b6c1-4629-a3df-e72bfd14716e",
+    "appUUID": "6be30530-829b-4520-959f-9fcf4deb9d66"
   },
   "scripts": {
     "build": "fitbit-build",

@@ -6,7 +6,6 @@ import { kpayFile } from '../common/index';
 
 messaging.peerSocket.addEventListener("open", () => {
     const apiKey = settingsStorage.getItem("apiKey");
-    console.log(apiKey)
     sync(apiKey);
 });
   

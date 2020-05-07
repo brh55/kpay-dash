@@ -14,8 +14,8 @@ You can download a private app build here: https://gallery.fitbit.com/details/6b
 
 ### Side Load
 
-1. `git clone `https://github.com/brh55/kpay-dash.git`
-2. Update the developer ``appClusterID` and `developerID` in the `package.json`
+1. `git clone https://github.com/brh55/kpay-dash.git`
+2. Update the developer `appClusterID` and `developerID` in the `package.json`
 3. Connect Fitbit device and mobile phone in developer mode
 4. `npx fitbit`
 5. `build-and-install`
